@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { ArrowDown, ChevronRight, Info, Plus } from "lucide-react";
+import { ArrowDown, ArrowUpDown, ChevronRight, Info, Plus } from "lucide-react";
 import { Button, Checkbox } from "@nextui-org/react";
 import { useState } from "react";
 import SelectedAssets from "../selectAsset";
@@ -25,7 +25,6 @@ const Gae = ({ handleSwitch }) => {
     formatFee,
   } = gaeComputation(paymentMethod, numberUnit, goldValue, usdtValue);
 
-  
   return (
     <div className="w-full  flex  justify-center gap-24 pt-2 pb-12">
       <div className="flex flex-col gap-3 w-[40%] relative">
@@ -51,7 +50,7 @@ const Gae = ({ handleSwitch }) => {
             onClick={handleSwitch}
             className="h-16 w-16 rounded-full flex items-center justify-center bg-ash border-4 border-dark absolute top-[83%] left-1/2 -translate-x-1/2 hover:bg-[#372e20] hover:text-golden transition-all cursor-pointer p-2"
           >
-            <ArrowDown
+            <ArrowUpDown
               size={25}
               className="text-smoke hover:text-golden animate-bounce"
             />

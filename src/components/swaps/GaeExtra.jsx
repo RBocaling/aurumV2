@@ -1,5 +1,12 @@
 /* eslint-disable react/prop-types */
-import { ArrowDown, ChevronDown, ChevronRight, Info, Plus } from "lucide-react";
+import {
+  ArrowDown,
+  ArrowUpDown,
+  ChevronDown,
+  ChevronRight,
+  Info,
+  Plus,
+} from "lucide-react";
 import { Button, Checkbox } from "@nextui-org/react";
 import { useState } from "react";
 import SelectedAssets from "../selectAsset";
@@ -52,7 +59,7 @@ const GaeExtra = ({ handleSwitch }) => {
             onClick={handleSwitch}
             className="h-16 w-16 rounded-full flex items-center justify-center bg-ash border-4 border-dark absolute top-[83%] left-1/2 -translate-x-1/2 hover:bg-[#372e20] hover:text-golden transition-all cursor-pointer p-2"
           >
-            <ArrowDown
+            <ArrowUpDown
               size={25}
               className="text-smoke hover:text-golden animate-bounce"
             />

@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { ArrowDown, Info } from "lucide-react";
+import { ArrowDown, ArrowUpDown, Info } from "lucide-react";
 import { Button, Checkbox } from "@nextui-org/react";
 import useAssetValue from "../../hooks/useAssetValue";
 import { useState } from "react";
@@ -50,7 +50,7 @@ const Sell = ({ handleSwitch }) => {
           onClick={handleSwitch}
           className="h-16 w-16 rounded-full flex items-center justify-center bg-ash border-4 border-dark absolute top-[28%] left-1/2 -translate-x-1/2 hover:bg-[#372e20] hover:text-golden transition-all cursor-pointer p-2"
         >
-          <ArrowDown
+          <ArrowUpDown
             size={25}
             className="text-smoke hover:text-golden animate-bounce"
           />

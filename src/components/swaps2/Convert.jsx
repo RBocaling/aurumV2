@@ -79,11 +79,11 @@ const Convert = ({ handleSwitch }) => {
         <div className="w-full rounded-3xl bg-ash px-7 py-9  flex flex-col gap-3  shadow-2xl shadow-ash-light/40 border border-ash-light/40">
           <p className="text-golden text-base"> Booking Note</p>
           <div className="flex items-center justify-between gap-3 w-full">
-            <p className="text-smoke/80 text-base">Total recieve</p>
+            <p className="text-smoke/80 text-base">Total Recieve</p>
             <p className="text-smoke/80 text-base"> {recieveAmount}</p>
           </div>
           <div className="flex items-center justify-between gap-3 w-full">
-            <p className="text-smoke/80 text-base">Holdings</p>
+            <p className="text-smoke/80 text-base">Total Holdings</p>
             <p className="text-smoke/80 text-base">
               QMGT {bookingNotes}{" "}
               <span className="text-smoke/50 text-xs">/g</span>

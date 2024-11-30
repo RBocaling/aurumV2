@@ -1,0 +1,16 @@
+export { default as BankVerification } from "./BankVerification";
+export { default as Dashboard } from "./Dashboard";
+export { default as Ges } from "./Ges";
+export { default as GesInfo } from "./GesInfo";
+export { default as HoldingInverntory } from "./HoldingInverntory";
+export { default as Kyc } from "./Kyc";
+export { default as Nominee } from "./Nominee";
+export { default as Profile } from "./Profile";
+export { default as Stacking } from "./Stacking";
+export { default as Sts } from "./Sts";
+export { default as Swap } from "./Swap";
+export { default as Swap2 } from "./Swap2";
+export { default as Termination } from "./Termination";
+export { default as TerminationSummary } from "./TerminationSummary";
+export { default as Transaction } from "./Transaction";
+export { default as TransactionDetails } from "./transactionDetails";

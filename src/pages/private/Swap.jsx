@@ -69,9 +69,9 @@ const Swap = () => {
             {summaryTableFee?.map((item, index) => (
               <div
                 key={index}
-                className={`${
-                  index > 0 && "border-l border-ash-light/70"
-                } relative flex-1  flex flex-col items-center gap-3 `}
+                className={`${index > 0 && "border-l border-ash-light/70"}  ${
+                  item?.type == selected && "bg-ash rounded-lg"
+                } relative flex-1  flex flex-col items-center gap-3 py-2  `}
               >
                 <div className="flex items-center gap-3">
                   <h1 className="text-smoke font-medium text-sm border-b border-ash-light ">

@@ -6,7 +6,7 @@ const RateCarousel = () => {
   const usdtValue = 95;
   return (
     <div className=" mt-2  bg-gradient-to-r from-yellow-400 via-yellow-600 to-yellow-800 text-white mb-2 items-center shadow-lg p-2 py-1 rounded-xl overflow-hidden mx-3">
-      <Marquee gradient={false} speed={40} pauseOnHover className="w-full">
+      <Marquee gradient={false} speed={40} className="w-full">
         <div className="flex justify-around gap-12 w-full items-center text-black">
           <div className="flex items-center gap-2">
             <img

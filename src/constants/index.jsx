@@ -47,27 +47,29 @@ export const fiatPaymentMethod = [
 // table for tabl for transactions management fee
 export const summaryTableFee = [
   {
-    title: "QM Sell(LME)",
+    title: " Buy",
     value: "USD 84.15",
+    type: "buy",
   },
   {
-    title: "QM Buy",
+    title: " Sell",
     value: "USD 84.15",
-    type: "buy/sell",
+    type: "sell",
   },
+
   {
-    title: "QM Buy",
+    title: " Convert",
     value: "USD 84.15",
     type: "convert",
   },
   {
-    title: "QM Buy",
+    title: " GAE",
     value: "USD 84.15",
-    type: "gae",
+    type: "regular",
   },
   {
-    title: "QM Buy",
+    title: " GAE Extra",
     value: "USD 84.15",
-    type: "gae10x",
+    type: "extra",
   },
 ];

@@ -17,7 +17,7 @@ const DashboardLayout = () => {
         <h1 className="text-white font-semibold  text-2xl whitespace-nowrap md:text-2xlmx-4 md:mx-0 my-3">
           Dashboard
         </h1>
-        <div className="flex items-center gap-2 text-white">
+        <div className="flex items-center gap-2 text-white ">
           <img className="w-10 rotate-coin" src="/tokenLogo.png" />
           <p>
             Current Gold Price:{" "}

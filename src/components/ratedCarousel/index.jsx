@@ -17,7 +17,7 @@ const RateCarousel = () => {
             <p className="px-2 font-medium">
               Convert: 1g = ${goldValue?.toFixed(2)}
             </p>
-          </div>
+        </div>
 
           <p className="font-thin">|</p>
 

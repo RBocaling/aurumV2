@@ -36,3 +36,11 @@ export const computeFee = (asset, amount) => {
         : `USDT ${feeInAsset.toFixed(2)}`,
   };
 };
+
+
+export const converter = () => {
+  const goldValue = 85;
+  const qmgt = 10;
+
+  const comp = goldValue * qmgt * usdtValue
+}

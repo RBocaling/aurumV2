@@ -79,7 +79,7 @@ const Buy = ({ handleSwitch }) => {
             <div className="flex flex-col gap-3 w-1/2">
               <p className="text-golden text-base"> Recieve</p>
               <div className="flex items-center gap-3 text-smoke text-sm -ml-2 cursor-pointer z-20 py-1 px-1 ">
-                <img src="/icons/qmgt.png" className="w-9" alt="" />
+                <img src="/icons/qmgt.svg" className="w-9" alt="" />
                 QMGT
               </div>
               <p className="text-smoke/80 text-base">Balance: $1200</p>

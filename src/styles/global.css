@@ -31,74 +31,79 @@ body {
   width: 400px;
   height: 400px;
   border-radius: 50%;
-  background: radial-gradient(ellipse at center,
-      hsla(60, 68%, 43%, 0.1),
-      transparent 64%);
+  background: radial-gradient(
+    ellipse at center,
+    hsla(60, 68%, 43%, 0.1),
+    transparent 64%
+  );
 }
 
 /* shadow for the whole page */
 
-
 .main::before {
-  content: '';
+  content: "";
   position: absolute;
   top: -250px;
   left: -400px;
   width: 1000px;
   height: 1000px;
-  background: radial-gradient(ellipse at center,
-      hsla(45, 86%, 28%, 0.15),
-      transparent 64%);
+  background: radial-gradient(
+    ellipse at center,
+    hsla(45, 86%, 28%, 0.15),
+    transparent 64%
+  );
   z-index: -1;
 }
 
 .main::after {
-  content: '';
+  content: "";
   position: absolute;
   top: -150px;
   left: 50%;
   transform: translateX(-40%);
   width: 900px;
   height: 900px;
-  background: radial-gradient(ellipse at center,
-      hsla(222, 28%, 35%, 0.2),
-      transparent 64%);
+  background: radial-gradient(
+    ellipse at center,
+    hsla(222, 28%, 35%, 0.2),
+    transparent 64%
+  );
   z-index: -1;
 }
 
 .content::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 20%;
   bottom: -150px;
   width: 900px;
   height: 900px;
-  background: radial-gradient(ellipse at center,
-      hsla(97, 28%, 35%, 0.15),
-      transparent 64%);
+  background: radial-gradient(
+    ellipse at center,
+    hsla(97, 28%, 35%, 0.15),
+    transparent 64%
+  );
   z-index: -1;
 }
 
 .content::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 30%;
   bottom: -370px;
   transform: translateX(-50%);
   width: 900px;
   height: 900px;
-  background: radial-gradient(ellipse at center,
-      hsla(14, 45%, 41%, 0.13),
-      transparent 64%);
+  background: radial-gradient(
+    ellipse at center,
+    hsla(14, 45%, 41%, 0.13),
+    transparent 64%
+  );
   z-index: -1;
 }
 
-
-
-
 /* gold lighting animation */
 @keyframes lighting {
-
   0%,
   100% {
     text-shadow: 0 0 3px #ffc107, 0 0 6px #ffc107, 0 0 10px #ffc107;
@@ -121,7 +126,6 @@ body {
 }
 
 @keyframes goldShadowPulse {
-
   0%,
   100% {
     transform: translate(0, 0) scale(1) rotate(0deg);
@@ -148,10 +152,9 @@ body {
   }
 }
 
-
 /* custom table color */
 .bg-content1 {
-  background-color: #1B1B1B;
+  background-color: #1b1b1b;
   color: #fcfcf7;
 }
 
@@ -167,20 +170,9 @@ tbody th {
   height: 60px !important;
 }
 
-
 /* button */
-.bg-default-100 {
-  --tw-bg-opacity: 1;
+/* .bg-default-100 {
   background-color: #2d2e2e !important;
   color: #fcfcf7 !important;
   height: 70px !important;
-}
-
-input[type="number"] {
-  -moz-appearance: textfield;
-  /* Firefox */
-  -webkit-appearance: none;
-  /* Chrome, Safari, Edge */
-  appearance: none;
-  /* Standard */
-}
+} */

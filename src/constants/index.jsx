@@ -23,7 +23,7 @@ export const ConvertAssets = [
     key: "qmgt",
     value: "QMGT",
     label: "QMGT",
-    icon: <img src="/icons/qmgt.png" className="w-10 ml-2" />,
+    icon: <img src="/icons/qmgt.svg" className="w-10 ml-2 my-1" />,
   },
   {
     key: "fiat",
@@ -47,18 +47,18 @@ export const fiatPaymentMethod = [
 // table for tabl for transactions management fee
 export const summaryTableFee = [
   {
-    title: " Buy",
+    title: " Gold",
     value: "USD 84.15",
     type: "buy",
   },
   {
-    title: " Sell",
+    title: " Gold",
     value: "USD 84.15",
     type: "sell",
   },
 
   {
-    title: " Convert",
+    title: " Gold",
     value: "USD 84.15",
     type: "convert",
   },
